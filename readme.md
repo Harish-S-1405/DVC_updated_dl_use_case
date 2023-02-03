@@ -28,4 +28,5 @@ touch config/secrets.yaml
 touch src/__init__.py src/utils/__init__.py
 touch src/stage_01_load_save
 touch src/utils/all_utils.py
+pip freeze > requirements.txt
 ```
